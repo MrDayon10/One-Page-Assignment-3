@@ -1,0 +1,169 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Lora', serif;
+}
+/* this is section1 */
+
+nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+    
+}
+nav ul{
+    display:flex;
+    justify-content: right;
+    margin-right: 75px;
+ 
+}
+nav li{
+    list-style: none;
+    margin: 5px 5px 0 40px;
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+}
+.subject{
+    margin-left: 50px;
+    text-align: left;}
+.title{
+    display: flex;
+    margin: 20px 20px 20px 50px;
+}
+h1{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+#sub-title{
+    margin: 30px 90px 20px 0;
+}
+.link{
+    text-decoration: none;
+    background-color: rgb(0, 162, 255);
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: aliceblue;
+}
+.link:hover{
+    background-color: aliceblue;
+    color: rgb(0, 119, 255);
+    border: 3px solid rgb(0, 153, 255);
+}
+.side-img{
+    border-radius: 40px;
+    margin-left: 30px;
+    margin-right: 80px;
+    position: relative;
+}
+.side-img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+/* this is section2 */
+.section2{
+    margin: 80px;
+}
+.icon-img{
+    border-bottom: 3px solid gray;
+    border-top: 3px solid gray;
+    display: flex;
+    margin: 10px 40px ;
+    justify-content: center;
+    flex-direction: row;
+}
+.icon{
+    width: 150px;
+    margin: 0 10px;
+}
+.icon img{
+    display: block;
+
+}
+.icon:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    z-index: 1;
+    position: relative;
+}
+/* this is section3 */
+h2{
+    text-align: center;
+}
+.products{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.products2{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.products3{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.images{
+    border-radius: 10px;
+    margin-left:  30px;
+}
+.images:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.pragrap{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.see-more{
+    text-align: right;
+    margin-right: 60px;
+}
+.see-more:hover a{
+    color: rgb(85, 245, 17);
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+/* this is last-section */
+.last-section{
+    display: flex;
+    margin-top: 45px;
+    padding-bottom: 20px;
+}
+.last-class{
+   text-align:left;
+   margin: 0 50px 0 40px;
+}
+#last-title{
+    text-align: left;
+}
+#img{
+    margin-left: 110px;
+}
+#img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+/* this is footer section */
+footer{
+    background-color: rgb(86, 153, 235);
+    text-align: center;
+    color: aliceblue;
+    margin: 0;
+    padding-top: 10px;
+   padding-bottom: 5px;
+   
+}
+h5{
+    margin: 0;
+}
